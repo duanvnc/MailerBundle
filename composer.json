@@ -1,14 +1,22 @@
 {
     "name": "duanvnc/ses-mailer-bundle",
+    "type": "symfony-bundle",
     "description": "Symfony 4.x AWS SES Mailer Bundle",
-    "type": "library, project, metapackage",
+    "keywords": ["mailer", "email", "swiftmailer", "ses", "aws ses"],
+    "license": "MIT",
     "require": {
-        "symfony/symfony": "^4.2"
+        "php": "^7.1.3",
+        "sylius/mailer": "^1.2",
+        "aws/aws-sdk-php": "^3.90",
+        "symfony/framework-bundle": "^4.1.1"
     },
     "authors": [
         {
             "name": "Duan Le",
             "email": "duanvnc@gmail.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
 }
