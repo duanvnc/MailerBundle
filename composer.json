@@ -1,0 +1,14 @@
+{
+    "name": "duanvnc/ses-mailer-bundle",
+    "description": "Symfony 4.x AWS SES Mailer Bundle",
+    "type": "library, project, metapackage",
+    "require": {
+        "symfony/symfony": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Duan Le",
+            "email": "duanvnc@gmail.com"
+        }
+    ]
+}
