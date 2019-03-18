@@ -1,5 +1,5 @@
 {
-    "name": "duanvnc/ses-mailer-bundle",
+    "name": "wumbo/ses-mailer-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 4.x AWS SES Mailer Bundle",
     "keywords": ["mailer", "email", "sendmail", "swiftmailer", "ses", "aws ses", "symfony", "symfony4", "symfony 4"],
