@@ -1,6 +1,4 @@
 Symfony 4.x AWS SES Mailer Bundle
-updated
-=======
 =================================
 
 [![Latest Stable Version](https://poser.pugx.org/wumbo/ses-mailer-bundle/v/stable)](https://packagist.org/packages/wumbo/ses-mailer-bundle)
