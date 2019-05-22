@@ -1,11 +1,11 @@
 {
-    "name": "duanvnc/ses-mailer-bundle",
+    "name": "wumbo/ses-mailer-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 4.x AWS SES Mailer Bundle",
-    "keywords": ["mailer", "email", "swiftmailer", "ses", "aws ses"],
+    "keywords": ["mailer", "email", "sendmail", "swiftmailer", "ses", "aws ses", "symfony", "symfony4", "symfony 4"],
     "license": "MIT",
     "require": {
-        "php": "^7.1.3",
+        "php": "^7.1",
         "sylius/mailer": "^1.2",
         "aws/aws-sdk-php": "^3.90",
         "symfony/framework-bundle": "^4.1.1"
@@ -18,5 +18,11 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^7.5"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
     }
 }
